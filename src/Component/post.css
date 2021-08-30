@@ -1,0 +1,101 @@
+.post {
+    /*height: 590px;*/
+    width: 540px;
+    background: #f6f6f6;
+    position: relative;
+}
+
+.postCover {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 350px;
+
+}
+
+.postCover img {
+    height: 100%;
+    width: auto;
+}
+
+.postContent {
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    color: #454f6b;
+    left: 55px;
+    right: 55px;
+    bottom: 60px;
+    background: white;
+    top: 175px;
+    border: 1px solid #e6e3dc;
+}
+
+.postHeader {
+    text-align: center;
+}
+
+.category {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.date {
+
+}
+
+.postWrapper {
+    padding: 55px 40px 0 40px;
+    height: 238px;
+}
+
+.palochka {
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Kaisei HarunoUmi", serif;
+    padding: 13px 0 10px 0;
+    text-align: center;
+    letter-spacing: -1.2px;
+}
+
+.description {
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+
+.actions {
+    text-align: center;
+}
+
+.actions button {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background: none;
+    border-right: none;
+    border-left: none;
+    color: #454f6b;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 6px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.postFooter {
+    height: 60px;
+    border-top: 1px solid #e6e3dc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
