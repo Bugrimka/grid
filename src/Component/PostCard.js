@@ -1,8 +1,12 @@
+import moment from "moment"
 import "./post.css"
+import {SocialMediaButton} from "./SocialMediaButton";
 
-export const Post = (props) => {
-    console.log(props)
-    return <div className="post">
+export const PostCard = (props) => {
+    const getDate = date => moment(date).format('MMMM D, YYYY');
+
+
+    return <div className="post-multimedia post">
         <div className="postCover">
             <img src={process.env.PUBLIC_URL + "/img/" + props.cover.src} alt=""/>
         </div>
@@ -11,7 +15,7 @@ export const Post = (props) => {
                 <div className="postHeader">
                     <span className="category">{props.category}</span>
                     <span className="palochka">|</span>
-                    <span className="date">{props.date}</span>
+                    <span className="date">{getDate(props.date).toString()}</span>
                 </div>
                 <div className="title">{props.title}</div>
                 <div className="description">{props.description}</div>
@@ -20,7 +24,7 @@ export const Post = (props) => {
                 </div>
             </div>
             <div className="postFooter">
-                <div className="socialMedia"/>
+                <SocialMediaButton/>
                 <span className="comment">{props.commentsCount} Comment</span>
             </div>
         </div>

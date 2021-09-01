@@ -29,6 +29,7 @@ header {
     color: white;
 }
 
+
 .headerName {
     height: 145px;
     text-align: center;
@@ -71,4 +72,19 @@ header div li + li:before {
     position: absolute;
     left: 0px;
     top: 3px;
+}
+
+.content {
+    background: rgba(66, 77, 114, 0.8);
+}
+
+.postList .post {
+    /*float: left;*/
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*column-gap: 30px;*/
+    /*row-gap: 30px;*/
+}
+.clear {
+    /*clear: both;*/
 }

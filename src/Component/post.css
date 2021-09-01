@@ -1,4 +1,4 @@
-.post {
+.post-multimedia {
     /*height: 590px;*/
     width: 540px;
     background: #f6f6f6;
@@ -19,8 +19,11 @@
     width: auto;
 }
 
-.postContent {
+.post-multimedia .postContent {
     position: absolute;
+}
+
+.postContent {
     font-family: "Ubuntu", sans-serif;
     color: #454f6b;
     left: 55px;
@@ -39,10 +42,6 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-}
-
-.date {
-
 }
 
 .postWrapper {
@@ -64,7 +63,7 @@
     letter-spacing: -1.2px;
 }
 
-.description {
+.post-multimedia .description {
     line-height: 20px;
     letter-spacing: -0.5px;
     height: 80px;
@@ -98,4 +97,50 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
+}
+
+.socialButton {
+    background: none;
+    border: none;
+    font-weight: 100;
+    color: #454f6b;
+}
+
+.post-text {
+    height: 335px;
+    width: 540px;
+}
+
+.userBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.userName {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+.userInfo {
+    padding-right: 20px;
+}
+
+.userProfession {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.post-text .postContent {
+    padding: 55px 95px 55px 95px;
+}
+
+.post-text .description {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.04px;
+    line-height: 30px;
+    padding-bottom: 15px;
 }
