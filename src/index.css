@@ -10,6 +10,12 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: unset;
@@ -91,4 +97,87 @@ header div li + li:before {
 
 .postList .post-multimedia {
     grid-row: 2 span;
+}
+
+.wrapperFooter {
+    height: 335px;
+    background: #3a4c74;
+    color: #f6f6f6;
+}
+
+.runningTitleFooter {
+    color: #6e7b99;
+    border-top: 1px solid #75829e;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.bigBlockFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 280px;
+    padding: 0 245px;
+}
+
+.footerName {
+    margin-top: -50px;
+}
+
+.footerHeadName {
+    font-size: 48px;
+    font-family: "Kaisei HarunoUmi", serif;
+}
+
+.footerUnderName {
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footerMenu {
+
+}
+
+.footerMenu li {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.follow span {
+    text-transform: uppercase;
+}
+
+.follow {
+    line-height: 20px;
+}
+
+.subscribeName {
+    text-transform: uppercase;
+}
+
+.subscribe {
+    width: 255px;
+}
+
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #75829e;
+    border-right: none;
+    height: 27px;
+    width: 160px;
+    padding: 0;
+}
+
+.email button {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #f2f3f6;
+    height: 29px;
+    text-transform: uppercase;
+}
+.email {
+    margin-top: 10px;
 }

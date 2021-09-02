@@ -17,7 +17,7 @@ function App() {
                         <Pages/>
                     </Route>
                 </Switch>
-                {/*<Footer/>*/}
+                <Footer/>
             </div>
         </Router>
     );
