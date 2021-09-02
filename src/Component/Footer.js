@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF, faGooglePlusG, faTwitter, faPinterestP} from "@fortawesome/free-brands-svg-icons";
+import {Link} from "react-router-dom";
 
 export const Footer = () => (
     <div className="wrapperFooter">
@@ -19,8 +20,8 @@ export const Footer = () => (
             </div>
             <div className="footerMenu">
                 <ul>
-                    <li>home</li>
-                    <li>pages</li>
+                    <li><Link to="/">home</Link></li>
+                    <li><Link to="/pages">pages</Link></li>
                     <li>about me</li>
                     <li>typography</li>
                     <li>contact</li>
@@ -29,10 +30,10 @@ export const Footer = () => (
             <div className="follow">
                 <span>follow us</span>
                 <ul>
-                    <li><FontAwesomeIcon icon={faFacebookF}/> Facebook</li>
-                    <li><FontAwesomeIcon icon={faGooglePlusG}/> Google +</li>
-                    <li><FontAwesomeIcon icon={faTwitter}/> Twitter</li>
-                    <li><FontAwesomeIcon icon={faPinterestP}/> Pinterest</li>
+                    <li><span className="footerIcon"><FontAwesomeIcon icon={faFacebookF}/></span> Facebook</li>
+                    <li><span className="footerIcon"><FontAwesomeIcon icon={faGooglePlusG}/></span> Google +</li>
+                    <li><span className="footerIcon"><FontAwesomeIcon icon={faTwitter}/></span> Twitter</li>
+                    <li><span className="footerIcon"><FontAwesomeIcon icon={faPinterestP}/></span> Pinterest</li>
                 </ul>
             </div>
             <div className="subscribe">

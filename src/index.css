@@ -65,7 +65,7 @@ header div li {
     text-transform: uppercase;
 }
 
-header div li a:hover {
+header div li a:hover, .footerMenu li a:hover {
     color: #b2a082;
 }
 
@@ -82,6 +82,7 @@ header div li + li:before {
 
 .content {
     background: rgba(66, 77, 114, 0.8);
+    padding-bottom: 100px;
 }
 
 .postList {
@@ -103,6 +104,7 @@ header div li + li:before {
     height: 335px;
     background: #3a4c74;
     color: #f6f6f6;
+    font-weight: 300;
 }
 
 .runningTitleFooter {
@@ -134,6 +136,7 @@ header div li + li:before {
     font-size: 10px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .footerMenu {
@@ -156,6 +159,8 @@ header div li + li:before {
 
 .subscribeName {
     text-transform: uppercase;
+    margin-top: -10px;
+    padding-bottom: 5px;
 }
 
 .subscribe {
@@ -179,5 +184,9 @@ input[type="email"] {
     text-transform: uppercase;
 }
 .email {
-    margin-top: 10px;
+    margin-top: 15px;
+}
+.footerIcon {
+    width: 17px;
+    display: inline-block;
 }
