@@ -78,13 +78,17 @@ header div li + li:before {
     background: rgba(66, 77, 114, 0.8);
 }
 
-.postList .post {
-    /*float: left;*/
-    /*display: grid;*/
-    /*grid-template-columns: 1fr 1fr;*/
-    /*column-gap: 30px;*/
-    /*row-gap: 30px;*/
+.postList {
+    display: grid;
+    grid-template-columns: 540px 540px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
 }
-.clear {
-    /*clear: both;*/
+
+.postList .post-text {
+    grid-row: 1 span;
+}
+
+.postList .post-multimedia {
+    grid-row: 2 span;
 }

@@ -27,7 +27,6 @@ export const Home = () => (
                         />
                     }
                 })}
-                <div className="clear"/>
             </div>
         </div>
     </div>

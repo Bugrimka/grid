@@ -11,12 +11,12 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 350px;
-
+    overflow: hidden;
 }
 
 .postCover img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 .post-multimedia .postContent {
@@ -107,7 +107,6 @@
 }
 
 .post-text {
-    height: 335px;
     width: 540px;
 }
 
@@ -134,7 +133,7 @@
 }
 
 .post-text .postContent {
-    padding: 55px 95px 55px 95px;
+    padding: 23px 95px 22px 95px;
 }
 
 .post-text .description {
